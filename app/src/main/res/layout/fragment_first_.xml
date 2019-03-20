@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".First_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="#854513"
+                  android:orientation="vertical"
+                  android:padding="18dp"/>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:text="Selamat Datang"
+              android:textSize="42dp"
+              android:textStyle="bold"
+              android:textColor="#ffe4b5"
+              android:textAlignment="center"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:text="Di Aplikasi Perdana Saya"
+              android:textSize="32dp"
+              android:gravity="center_horizontal"
+              android:layout_gravity="center_vertical"
+
+              android:textStyle="bold"
+              android:textColor="#ffe4b5"
+              android:textAlignment="center"/>
+
+</FrameLayout>
